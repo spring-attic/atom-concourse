@@ -1,0 +1,9 @@
+'scopeName': 'source.concourse-ci-yaml'
+'name': 'Concourse-CI-YAML'
+'fileTypes': [
+  'pipeline.yml',
+  'task.yml'
+]
+'patterns': [
+  { 'include': 'source.yaml' }
+]
