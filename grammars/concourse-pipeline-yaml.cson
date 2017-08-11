@@ -1,5 +1,5 @@
-'scopeName': 'source.concourse-ci-yaml'
-'name': 'Concourse-CI-YAML'
+'scopeName': 'source.concourse-pipeline-yaml'
+'name': 'Concourse-Pipeline-YAML'
 'fileTypes': [
   'pipeline.yml',
   'task.yml'

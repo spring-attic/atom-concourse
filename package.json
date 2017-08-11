@@ -1,5 +1,5 @@
 {
-  "name": "concourse-ci-yaml",
+  "name": "concourse-pipeline-yaml",
   "main": "./lib/main",
   "version": "0.0.1",
   "description": "Provides validation and content assist for Concourse CI pipeline and task configuration yml files",
