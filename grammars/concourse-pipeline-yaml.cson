@@ -1,8 +1,7 @@
 'scopeName': 'source.concourse-pipeline-yaml'
 'name': 'Concourse-Pipeline-YAML'
 'fileTypes': [
-  'pipeline.yml',
-  'task.yml'
+  'pipeline.yml'
 ]
 'patterns': [
   { 'include': 'source.yaml' }
