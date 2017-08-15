@@ -17,6 +17,7 @@
     "properties.json"
   ],
   "dependencies": {
+    "atom-package-deps": "^4.6.0",
     "download": "^6.2.5",
     "pivotal-atom-languageclient-commons": "0.0.5"
   },
@@ -27,6 +28,9 @@
     "clean": "rm -fr node_modules",
     "postinstall": "node script.js"
   },
+  "package-deps": [
+    "atom-ide-ui"
+  ],
   "consumedServices": {
     "linter-indie": {
       "versions": {
