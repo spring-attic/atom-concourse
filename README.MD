@@ -8,7 +8,7 @@ It is recommended to use this extension package when `atom-ide-ui` atom extensio
 
 ## Usage
 
-The Concourse CI editor automatically activates when the name of the file you are editing is `pipeline.yml` or `task.yml`, or editor grammar is set to `Concourse-CI-YAML`
+The Concourse editor automatically activates when the name of the file you are editing is `pipeline.yml` or `task.yml`, or editor grammar is set to `Concourse-CI-YAML` or `Concourse-Task-YAML`.
 
 ## Functionality
 
@@ -21,10 +21,14 @@ an error marker to see an explanation.
 
 ### Content Assist
 
-Having trouble remembering all the names of the attributes, and their spelling? Content assist to the
-rescue:
+Having trouble remembering all the names of the attributes, and their spelling? Or can't remember
+which resource properties to set in the `get` task params versus its `source` attributes? Or
+don't remember what 'special' values are acceptable for a certain property? Content assist
+to the rescue:
 
-![Content Assist Screenshot][ca]
+![Content Assist Screenshot][ca1]
+
+![Content Assist Screenshot][ca2]
 
 ### Documentation Hovers
 
@@ -33,14 +37,29 @@ read its detailed documentation.
 
 ![Hover Docs Screenshot][hovers]
 
+### Navigate to Symbol in File
+
+Is your Pipeline yaml file getting larger and it is becoming harder to find a particular Job, Resource or
+Resource Type declaration? The Atom Outline View (View -> Toggle Outline View) helps you quickly jump to a specific definition.
+
+![Outline View][outline_view]
+
 ## Dev environment setup:
 **Prerequisite**: Node 6.x.x or higher is installed, Atom 1.17 or higher is installed
 1. Clone the repository
 2. Run `npm install`
 3. Execute `apm link .` from the folder above
-5. Perform `Reload Window` in Atom (Cmd-Shift-P opens commands palette, search for `reaload`, select, press `Return`)
+5. Perform `Reload Window` in Atom (Cmd-Shift-P opens commands palette, search for `reload`, select, press `Return`)
 6. Open any `pipeline.yml` or `task.yml` file in Atom observe reconciling, content assist and other IDE features
 
-[linting]: https://raw.githubusercontent.com/spring-projects/atom-cf-manifest-yaml/3e485d98ca1f5fb5ca3d780ffd85cd8e4e9e96be/readme-imgs/linting.png
+[linting]: 
+
+[ca1]:
+
+[ca2]:
+
+[hovers]:
+
+[outline_view]:
 
 
