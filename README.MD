@@ -14,8 +14,7 @@ The Concourse editor automatically activates when the name of the file you are e
 
 ### Validation
 
-(Requires `atom-ide-ui` package) As you type the manifest is parsed and checked for basic syntactic and structural correctness. Hover over
-an error marker to see an explanation.
+(Requires `atom-ide-ui` package) As you type the file is parsed and checked for basic syntactic and structural correctness. Hover over an error marker to see an explanation.
 
 ![Linting Screenshot][linting]
 
