@@ -8,7 +8,11 @@ It is recommended to use this extension package when `atom-ide-ui` atom extensio
 
 ## Usage
 
-The Concourse editor automatically activates when the name of the file you are editing is `pipeline.yml` or `task.yml`, or editor grammar is set to `Concourse-CI-YAML` or `Concourse-Task-YAML`.
+The Concourse editor automatically activates when the name of the file you are editing is `pipeline.yml` or `task.yml`. Alternately, you can select the grammar for your file by doing these steps:
+
+- Open the file, and it will most likely open with the default Atom YAML editor.
+- In the bottom-right of the editor, click on YAML.
+- This opens the Grammar Selection dialogue. Search and select `Concourse-CI-YAML` for pipeline files, or `Concourse-Task-YAML` for task files.
 
 ## Functionality
 
