@@ -71,6 +71,8 @@
     }
   },
   "bundledDependencies": [
+    "atom-package-deps",
+    "download",
     "pivotal-atom-languageclient-commons"
   ]
 }
