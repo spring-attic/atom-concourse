@@ -12,7 +12,7 @@ The Concourse editor automatically activates when the name of the file you are e
 
 - Open the file, and it will most likely open with the default Atom YAML editor.
 - In the bottom-right of the editor, click on YAML.
-- This opens the Grammar Selection dialogue. Search and select `Concourse-CI-YAML` for pipeline files, or `Concourse-Task-YAML` for task files.
+- This opens the Grammar Selection dialogue. Search and select `Concourse-Pipeline-YAML` for pipeline files, or `Concourse-Task-YAML` for task files.
 
 ## Functionality
 
