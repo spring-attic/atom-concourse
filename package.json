@@ -19,7 +19,7 @@
   "dependencies": {
     "atom-package-deps": "^4.6.0",
     "download": "^6.2.5",
-    "pivotal-atom-languageclient-commons": "0.0.7"
+    "pivotal-atom-languageclient-commons": "0.0.8"
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
@@ -69,10 +69,5 @@
         "0.0.0": "provideOutlines"
       }
     }
-  },
-  "bundledDependencies": [
-    "atom-package-deps",
-    "download",
-    "pivotal-atom-languageclient-commons"
-  ]
+  }
 }
