@@ -1,4 +1,4 @@
-'.source.concourse-pipeline-yaml':
+'.source.bosh-deployment-manifest':
   'editor':
     'autoIndentOnPaste': false
     'commentStart': '# '
