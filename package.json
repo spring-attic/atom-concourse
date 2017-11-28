@@ -1,9 +1,9 @@
 {
-  "name": "bosh-yaml",
+  "name": "concourse-pipeline-yaml",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Provides validation and content assist for various Bosh configuration files",
-  "repository": "https://github.com/spring-projects/atom-bosh",
+  "description": "Provides validation and content assist for Concourse CI pipeline and task configuration yml files",
+  "repository": "https://github.com/spring-projects/atom-concourse",
   "icon": "icon.png",
   "license": "MIT",
   "engines": {
@@ -20,35 +20,6 @@
     "atom-package-deps": "^4.6.0",
     "download": "^6.2.5",
     "pivotal-atom-languageclient-commons": "0.0.17"
-  },
-  "configSchema": {
-    "bosh": {
-      "type": "object",
-      "title": "Bosh CLI Configuration",
-      "properties": {
-        "cli.command": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "default": "bosh",
-          "description": "Path to an executable to launch the bosh cli V2. A V2 cli is required! Set this to null to completely disable all editor features that require access to the bosh director"
-        },
-        "cli.target": {
-          "type": [
-            "string",
-            "null"
-          ],
-          "default": null,
-          "description": "Specifies the director/environment to target when executing bosh cli commands. I.e. this value is passed to the CLI via `-e` parameter."
-        },
-        "cli.timeout": {
-          "type": "integer",
-          "default": 3,
-          "description": "Number of seconds before CLI commands are terminated with a timeout"
-        }
-      }
-    }
   },
   "devDependencies": {
     "coffeelint": "^1.10.1"
@@ -109,4 +80,5 @@
       }
     }
   }
+
 }

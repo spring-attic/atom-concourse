@@ -1,4 +1,4 @@
-'.source.bosh-cloud-config':
+'.source.concourse-task-yaml':
   'editor':
     'autoIndentOnPaste': false
     'commentStart': '# '
