@@ -1,0 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const concourse_ci_yaml_client_1 = require("./concourse-ci-yaml-client");
+module.exports = new concourse_ci_yaml_client_1.ConcourseCiYamlClient();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2xpYi9tYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEseUVBQWlFO0FBRWpFLE1BQU0sQ0FBQyxPQUFPLEdBQUcsSUFBSSxnREFBcUIsRUFBRSxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb25jb3Vyc2VDaVlhbWxDbGllbnR9IGZyb20gJy4vY29uY291cnNlLWNpLXlhbWwtY2xpZW50JztcblxubW9kdWxlLmV4cG9ydHMgPSBuZXcgQ29uY291cnNlQ2lZYW1sQ2xpZW50KCk7Il19
