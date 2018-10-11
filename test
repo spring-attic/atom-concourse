@@ -1,0 +1,11 @@
+fileExists(localFileName).then(exists => {
+   if (!exists) {
+       console.log(`Downloading ${serverDownloadUrl} to ${localFileName}`);
+       fileExists(serverHome)
+           .then(doesExist => { if (!doesExist) fs.mkdir(serverHome) })
+           .then(() => download(serverDownloadUrl))
+           .then(data => fs.writeFileSync(localFileName, data))
+           .then(() => fileExists(localFileName))
+           .then(doesExist => { if (!doesExist) throw Error(`Failed to install the ${this.getServerName()} language server`) })
+           .then(() => console.log(`Successfully downloaded ${serverDownloadUrl}`));
+   }
