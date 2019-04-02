@@ -1,4 +1,4 @@
-import { JavaProcessLanguageClient } from '@pivotal-tools/atom-languageclient-commons';
+import { JavaProcessLanguageClient, JavaOptions } from '@pivotal-tools/atom-languageclient-commons';
 import { JVM } from '@pivotal-tools/jvm-launch-utils';
 export declare class ConcourseCiYamlClient extends JavaProcessLanguageClient {
     constructor();
@@ -7,4 +7,5 @@ export declare class ConcourseCiYamlClient extends JavaProcessLanguageClient {
     getServerName(): string;
     activate(): void;
     launchVmArgs(jvm: JVM): Promise<string[]>;
+    getJavaOptions(): JavaOptions;
 }
